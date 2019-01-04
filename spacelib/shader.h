@@ -21,7 +21,6 @@ class Shader{
 public:
     static QOpenGLShaderProgram* defaultShader;
     QList<QPair<QOpenGLShader::ShaderType, QString> >shaderFileInfos;
-    QList<QPair<int, QString> >shaderUniformInfos;
 
 };
 
